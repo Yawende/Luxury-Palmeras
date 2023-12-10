@@ -10,9 +10,9 @@
     <p>Please fill out this form with the required information</p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
-        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="first-name">First Name: <input id="first-name" name="first-name" type="text" placeholder="John" required /></label>
+        <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" placeholder="Doe" required /></label>
+        <label for="email">Email: <input id="email" name="email" type="email" placeholder="JohnDoe@mail.com" required /></label>
         <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
       </fieldset>
       <fieldset>
@@ -26,9 +26,9 @@
         <label for="referrer">How did you hear about us?
           <select id="referrer" name="referrer">
             <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
+            <option value="1">Social media</option>
+            <option value="2">Friends and family</option>
+            <option value="3">Google ads</option>
             <option value="4">Other</option>
           </select>
         </label>
@@ -41,6 +41,5 @@
       </label>
       <input type="submit" value="Submit" />
     </form>
-    <script src="script.js"></script>
   </body>
 </html>
